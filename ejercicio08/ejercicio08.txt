@@ -1,0 +1,22 @@
+PSEUDOCODIGO:
+algoritmo_analizar_cadena
+
+Entrada:
+  cadena: CADENA
+  separador: CARACTER
+Precondición: 
+  cadena y separador != NULO
+Variables:
+  i: CARACTER
+  subcadenas: CADENA
+Inicialización:
+  subcadenas <- VACIO
+  subcadena_actual <- ""
+  para cada caracter i en cadena
+    si i ==separador; entonces
+      subcadenas.agregar(subcadena_actual)
+    sino
+      subcadena_actual <- subcadena_actual + i
+fin bucle
+subcadenas.agregar(subcadena_actual)  
+devolver subcadenas
