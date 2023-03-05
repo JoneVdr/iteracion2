@@ -1,0 +1,20 @@
+PSEUDOCODIGO:
+algoritmo_personas_envejecer
+
+Entrada:
+  t: TABLA [CARACTERES] #1000 COMPONENTES
+
+Precondición:
+  t != NULA
+
+Variables:
+  persona: PERSONA
+
+Inicialización:
+  para persona en t
+    si persona existe:
+      persona.edad [t] <- persona.edad[t] -1
+    fin si
+  fin bucle
+
+fin algoritmo_personas_envejecer

@@ -1,0 +1,23 @@
+PSEUDOCODIGO:
+algoritmo_personas_20_30
+
+Entrada:
+  t: TABLA [CARACTERES] #1000 COMPONENTES
+
+Precondición:
+  t != NULA
+
+Variables:
+  personas_20_30 <- TABLA[CARACTERES]
+  persona: PERSONA
+
+Inicialización:
+  personas_20_30 <- VACIO
+  para persona en t
+    si persona y 20 <= persona.edad <= 30; entonces  personas_20_30.agregar(persona)
+    fin si
+  fin bucle
+  Resultado <- personas_20_30
+
+fin algoritmo_personas_20_30
+

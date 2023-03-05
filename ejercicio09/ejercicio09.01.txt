@@ -1,0 +1,17 @@
+algoritmo_letra
+
+
+Entrada:
+  letra <- CARACTER
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+PSEUDOCODIGO:
+tipo 
+  PERSONA
+estructura
+  nombre: CARACTER
+  apellido: CARACTER
+  fecha_nac: ENTERO
+  padre1: PERSONA
+  padre2: PERSONA
+fin PERSONA

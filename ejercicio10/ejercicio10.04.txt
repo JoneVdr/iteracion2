@@ -1,0 +1,23 @@
+PSEUDOCODIGO:
+algoritmo_personas_huerfanas
+
+Entrada:
+  t: TABLA [CARACTERES] #1000 COMPONENTES
+
+Precondición:
+  t != NULA
+
+Variables:
+  huerfanos <- TABLA[CARACTERES]
+  persona: PERSONA
+
+Inicialización:
+  huerfanos <- VACIO
+  para persona en t
+    si persona existe y persona.padre1[t] == "HUERFANO" y persona.padre2[t] == "HUERFANO"; entonces
+      huerfanos.agregar(persona)
+    fin si
+  fin bucle
+  Resultado <- huerfanos
+
+fin algoritmo_personas_huerfanas
