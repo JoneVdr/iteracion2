@@ -1,0 +1,28 @@
+PSEUDOCODIGO:
+algoritmo_cuadrados_perfectos
+
+Entrada:
+  lista_cuadrados: TABLA [ENTERO]
+  limite: ENTERO
+
+Precondición:
+  limite >= 0
+  indice_min(lista_cuadrados) = 0
+  indice_max(lista_cuadrados) >= 0
+
+Variables:
+  i: ENTERO
+
+Inicialización:
+  lista_cuadrados <- VACIO
+  i <- 0
+  mientras i**2 <=limite
+  repetir
+    lista_cuadrados.agregar(i**2)
+    i <- i+1
+    devolver lista_cuadrados
+  fin repetir
+  Resultado <- lista_cuadrados
+
+fin algoritmo_cuadrados_perfectos
+

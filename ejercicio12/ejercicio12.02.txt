@@ -1,0 +1,19 @@
+PSEUDOCODIGO:
+algoritmo_raices
+Entrada:
+  numero: ENTERO
+Precondición:
+  numero >= 0
+Variables:
+  i: ENTERO
+Inicialización:
+  numero <- 0
+  i <- 0
+  mientras i**2 <=numero
+  repetir
+    i <- i+1
+    si i**2 == numero; entonces devolver i
+  fin repetir
+  Resultado <- i
+
+fin algoritmo_raices
