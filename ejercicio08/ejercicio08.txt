@@ -20,3 +20,5 @@ Inicialización:
 fin bucle
 subcadenas.agregar(subcadena_actual)  
 devolver subcadenas
+
+fin algoritmo_analizar_cadena

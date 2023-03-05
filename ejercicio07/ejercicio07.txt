@@ -1,0 +1,23 @@
+PSEUDOCODIGO:
+algoritmo_representacion_base
+
+Entrada:
+  numero: ENTERO
+  base: ENTERO
+Precondición: 
+  base > 36
+Inicialización:
+  si base > 36; entonces
+    resultado <- ""
+    mientras numero > 0
+    repetir
+    resto <- numero % base
+    resultado <- resto + "." + resultado
+    numero <- numero // base
+    fin repetir
+    devolver resultado
+  sino
+    "La base debe de ser mayor que 36"
+  fin si
+
+fin algoritmo_representacion_base
