@@ -1,6 +1,6 @@
 # EJERCICIOS DE ITERACION
 
-LINK: https://github.com/mgonzalz/iteracion2.git
+LINK:https://github.com/JoneVdr/iteracion2.git
 
 PAREJA: JONE VEGA DEL RIO Y MARÍA GONZÁLEZ
 
