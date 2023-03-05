@@ -1,0 +1,18 @@
+PSEUDOCODIGO:
+algoritmo_suma_resta
+
+Entrada:
+  numero1: ENTERO
+  numero2: ENTERO
+Inicialización:
+  n1 <- numero1
+  n2 <- numero2
+  mientras n1 ≠ n2
+  repetir
+    si n1 > n2; entonces n1 <- n1 - n2
+    sino 
+        n2 <- n2 -n1
+  devolver n1
+  fin repetir
+
+fin algoritmo_suma_resta

@@ -1,0 +1,30 @@
+PSEUDOCODIGO:
+algoritmo_euclides
+
+Entrada:
+  numero1: ENTERO
+  numero2: ENTERO
+Variables:
+  resto: ENTERO
+Inicialización:
+  resto <- 0
+  n1 <- numero1
+  n2 <- numero2
+  si n1 1>=n2; entonces
+    mientras n1%n2 ≠ 0
+    repetir
+        resto <- n1%n2
+        n1 <- n2
+        n2 <- resto
+    devolver n2
+    fin repetir
+  sino
+    mientras n2%n1 ≠ 0
+    repetir
+        resto <- n2%n1
+        n2 <- n1
+        n1 <- resto
+    devolver n1
+    fin repetir
+
+fin algoritmo_euclides
